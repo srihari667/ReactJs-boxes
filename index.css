@@ -1,0 +1,70 @@
+/* Write your code here. */
+body {
+  margin: 0;
+}
+.backgroundContainer {
+  background-color: white;
+  padding: 15px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 32px;
+  text-align: center;
+}
+.description {
+  color: white;
+  font-family: "Bree Serif";
+  font-size: 22px;
+}
+.smallBox {
+  background-color: #fbbf24;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mediumBox {
+  background-color: #38bdf8;
+  height: 350px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.largeBox {
+  background-color: #ec4899;
+  height: 450px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .boxesContainer {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .boxesContainer {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
